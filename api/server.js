@@ -28,6 +28,9 @@ app.post('/submit', async (req, res) => {
 		return res.json(e);
 	}
 });
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/favicon.ico'));
+});
 app.get('/', (req, res) => {
 	res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
