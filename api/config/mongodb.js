@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 const URI =
-	'mongodb+srv://hakixer:mynameisexcel2@mern-app.6jk1agk.mongodb.net/?retryWrites=true&w=majority&appName=mern-app';
+	'mongodb+srv://hakixer:thi54dAl5brg3r41@shell-haki.snamlx9.mongodb.net/?retryWrites=true&w=majority&appName=shell-haki';
 
 const conn = async () => {
 	await mongoose.connect(
